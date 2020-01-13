@@ -1,2 +1,2 @@
 # Ecommerce
-This is the Homby Ecommerce web store.
+This is the Homby Ecommerce Project.
