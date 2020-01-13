@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Pacifico|Port+Lligat+Sans|Port+Lligat+Slab|Roboto&display=swap');
+
+.pds-navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.pds-navbar ul li{
+	display: inline-block;
+	padding: 10px;
+}
+
+
+.pds-navbar ul li select{
+	width: 120px;
+	height: 30px;
+}
+  
+.rangeslider{ 
+    width: 20%; 
+
+} 
+  
+.myslider { 
+	border-radius: 100px;
+    -webkit-appearance: none; 
+    background: #3333  ; 
+    width: 50%; 
+    height: 20px; 
+    opacity: 2; 
+   } 

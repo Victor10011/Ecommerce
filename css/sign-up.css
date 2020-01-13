@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&subset=devanagari,latin-ext');
+
+body{
+	font:15px/1.5 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #15aabf;	 
+}
+
+.container{
+	background: #15aabf;
+}
+
+.wrapper{
+	width: 450px;
+	margin-top: 20px;
+	margin-left: 350px;
+	margin-right: 500px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.1);} 
+}
+/**********/
+#form-header{
+	position: absolute;
+	top: -50px;
+}
+
+#form-header h2, p{
+	position: relative;
+	top: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.wrapper #form-header h2{
+	position: relative;
+	top: 20px;
+	bottom: -100px;
+}
+
+#form-header p{
+	position: relative;
+	padding-bottom: 40px;
+}
+/*****FORM STYLING********/
+form {
+	width: 400px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+}
+
+form label input{
+	font-size: 18px;
+	padding-left: 15px;
+	background: #eee;
+	border: none;
+	border-radius: 5px;
+}
+
+/**********/
+form label .name{
+	width: 150px;
+	height: 35px;
+	margin-bottom: 30px;
+}
+form #firstName{
+	margin-right: 20px;
+}
+/**********/
+form label .Ep{
+	width: 340px;
+	height: 35px;
+	margin-bottom: 30px;
+}
+form #checkbox{
+	margin-bottom: 30px;
+}
+/********** TERMS AND LOGIN LINK STYLING **********/
+form label span{
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+form label span a{
+	text-decoration: underline;
+	color: blue;
+	font-size: 17px;
+
+}
+/****************************************/
+
+form #create-account button{
+	width: 150px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #fff;
+	background: #b21520;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+}
